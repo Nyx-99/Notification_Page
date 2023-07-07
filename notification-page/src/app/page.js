@@ -1,7 +1,6 @@
 'use client'
 import clsx from 'clsx'
 import styles from './components/Grid.module.scss'
-import './globals.scss'
 import { notiList } from './components'
 import { useState, useLayoutEffect } from 'react'
 
