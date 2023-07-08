@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-(![image](https://github.com/Nyx-99/Notification_Page/assets/125676643/27d56e4c-8de1-4a21-a64c-76bf401a1764)
+![image](https://github.com/Nyx-99/Notification_Page/assets/125676643/27d56e4c-8de1-4a21-a64c-76bf401a1764)
 
 ### Links
 
