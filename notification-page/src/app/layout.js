@@ -1,7 +1,11 @@
 import './globals.scss'
-// import { Inter } from 'next/font/google'
-
-// const inter = Inter({ subsets: ['latin'] })
+// import "@fontsource/plus-jakarta-sans";
+import { Plus_Jakarta_Sans } from 'next/font/google'
+const plusJakartaSans = Plus_Jakarta_Sans({
+  weight: ['500','600', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} >{children}</body>
+      <body suppressHydrationWarning={true} className={plusJakartaSans.className} >{children}</body>
     </html>
   )
 }
