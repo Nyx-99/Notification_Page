@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  color: #5e6778;
+  font-weight: 500;
+  line-height: 1.35;
+  word-spacing: 1px;
+  background-color: #f7fafd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-height: 570px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=globals.css.map */

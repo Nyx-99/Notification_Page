@@ -1,5 +1,4 @@
 import './globals.scss'
-// import "@fontsource/plus-jakarta-sans";
 import { Plus_Jakarta_Sans } from 'next/font/google'
 const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ['500','600', '700'],
